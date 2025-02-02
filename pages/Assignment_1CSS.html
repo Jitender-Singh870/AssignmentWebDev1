@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label class="togglecss" for="togglecss">No Backend yet</label>
+    <div class="content">
+        <div class="center">
+            <h1 align="center">Job Application</h1>
+        </div>
+        <div id="formset">
+            <form>
+                <fieldset>
+                    <legend>Enter Information Below:</legend>
+                    <Label class="field" for="name">Full Name:</Label> <br>
+                    <Input type="text" name="name" placeholder="enter your name" required /> <br><br>
+                    <label class="field" for="number">Phone Number: </label> <br>
+                    <input type="tel" name="number" placeholder="enter your contact number"> <br><br>
+                    <label class="field" for="email">Email: </label> <br>
+                    <input type="email" placeholder="enter your email here"> <br><br>
+                    <label class="field" for="address">Address: </label> <br>
+                    <textarea cols="50" rows="5" name="address" placeholder="enter address"></textarea> <br> <br>
+                    <label class="field" for="birthdate">Date of Birth:</label><br>
+                    <input type="date" name="birthdate" required><br><br>
+                    <label class="field" for="gender">Select Gender:</label>
+                    <div>
+                        <input type="radio" name="gender" required>
+                        <label for="gender1">Male</label> <br>
+        
+                        <input type="radio" name="gender" required>
+                        <label for="gender2">Female</label>
+                    </div>
+                    <br><br>
+                    <label class="field" for="skills">Skills: </label>
+                    <input type="checkbox" name="skills"><label for="skills">Python</label>
+                    <input type="checkbox" name="skills"><label for="skills">Frontend</label>
+                    <input type="checkbox" name="skills"><label for="skills">Backend</label>
+                    <input type="checkbox" name="skills"><label for="skills">SQL</label>
+                    <input type="checkbox" name="skills"><label for="skills">MongoDB</label>
+                    <input type="checkbox" name="skills"><label for="skills">OOPs</label>
+                    <input type="checkbox" name="skills"><label for="skills">Java</label>
+                    <input type="checkbox" name="skills"><label for="skills">C++</label>
+                    <br><br>
+                    <label class="field" for="resume">Upload Your resume: </label>
+                    <input type="file" name="resume">
+                    <br> <br>
+                    <div class="center"><input id="submit" type="submit"> <input id="reset" type="reset"></div>
+                </fieldset>
+            </form> <br>
+        </div>
+    </div>
+
+    <script src="./a1script.js"></script>
+</body>
+</html>

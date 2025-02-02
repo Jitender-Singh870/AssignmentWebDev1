@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        #tocss {
+            font-size: 18px;
+            border-radius: 20px;
+            padding: 7px 20px;
+            background-color: rgb(189, 253, 232);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 >Job Application</h1>
+    <form>
+        <fieldset>
+            <legend>Enter Information Below:</legend>
+            <Label for="name">Full Name:</Label> <br>
+            <Input type="text" name="name" placeholder="enter your name" required /> <br><br>
+
+            <label for="number">Phone Number: </label> <br>
+            <input type="tel" inputmode="decimal" name="number" placeholder="enter your contact number"> <br><br>
+
+            <label for="email">Email: </label> <br>
+            <input type="email" placeholder="enter your email here"> <br><br>
+
+
+            <label for="address">Address: </label> <br>
+            <textarea cols="50" rows="5" name="address" placeholder="enter address"></textarea> <br> <br>
+
+            <label for="birthdate">Date of Birth:</label><br>
+            <input type="date" name="birthdate" required><br><br>
+
+            <label for="gender">Select Gender:</label>
+            <div>
+                <input type="radio" name="gender" required>
+                <label for="gender">Male</label> <br>
+                
+                <input type="radio" name="gender" required>
+                <label for="gender">Female</label>
+            </div>
+            <br><br>
+
+            <label for="skills">Skills: </label>
+            <input type="checkbox" name="skills1"><label for="skills1">Python</label>
+            <input type="checkbox" name="skills2"><label for="skills2">Frontend</label>
+            <input type="checkbox" name="skills3"><label for="skills3">Backend</label>
+            <input type="checkbox" name="skills4"><label for="skills4">SQL</label>
+            <input type="checkbox" name="skills5"><label for="skills5">MongoDB</label>
+            <input type="checkbox" name="skills6"><label for="skills6">OOPs</label>
+            <input type="checkbox" name="skills7"><label for="skills7">Java</label>
+            <input type="checkbox" name="skills8"><label for="skills8">C++</label>
+            <br><br>
+
+            <label for="resume">Upload Your resume: </label>
+            <input type="file" name="resume">
+
+            <br> <br>
+            <input id="Submit" type="submit"> <input type="reset">
+        </fieldset>
+    </form> <br>
+
+    <a href="./pages/Assignment_1CSS.html" ><button id="tocss">Click me to add some CSS</button></a>
+    
+
+    <script src="./a1script.js"></script>
+</body>
+</html>
